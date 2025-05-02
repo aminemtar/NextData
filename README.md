@@ -64,13 +64,16 @@ Flutter SDK: 3.29.3
 Dart SDK: 3.7.2
 
 Android Studio or VSCode with Flutter plugin
-# Clone the repo
-git https://github.com/aminemtar/NextData.git
 
+
+## 🚀 Installation  
+1. Clone the repository:  
+   ```bash
+   git https://github.com/aminemtar/NextData.git
 
 2. Access the project:
     ```bash
-    cd android_flutter_test
+    cd NextData
 
 3. Install dependencies:
     ```bash
