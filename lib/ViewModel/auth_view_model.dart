@@ -1,4 +1,5 @@
 import 'package:android_flutter_test/Service/auth_service.dart';
+import 'package:android_flutter_test/views/login_screen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -47,8 +48,9 @@ class AuthViewModel with ChangeNotifier {
     if (success) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => PostListScreen()),
+        MaterialPageRoute(builder: (_) => LoginScreen()),
       );
+      _setLoading(false);
     } else {
       error = 'Signup failed. Please try again.';
       _setLoading(false);
