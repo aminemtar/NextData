@@ -35,9 +35,12 @@ This project demonstrates a hybrid mobile application developed using:
 │   ├── models/                      # MVVM - Model layer
 │   ├── viewmodels/                  # MVVM - ViewModel layer
 │   ├── views/                       # MVVM - View (UI) layer
+│   ├── services/                    # Service layer (Business Logic / API calls)
+│   ├── data/                        # Data layer (Repositories, Data Sources)
 │   └── main.dart                    # Entry point
 ├── pubspec.yaml                     # Dependencies configuration
 └── README.md                        # Project documentation
+
 
 
 🧱 Architecture: MVVM
@@ -67,18 +70,19 @@ Android Studio or VSCode with Flutter plugin
 
 
 ## 🚀 Installation  
+```
 1. Clone the repository:  
-   ```bash
-   git https://github.com/aminemtar/NextData.git
+git clone https://github.com/aminemtar/NextData.git
 
-2. Access the project:
-    ```bash
-    cd NextData
+2. Open the project in VS Code or Android Studio.
 
-3. Install dependencies:
-    ```bash
-    flutter pub get
+3. Select an Android device to run the application on:
+   - In VS Code, click on the **Device** dropdown in the bottom-left corner and select an Android device from the list.
+   - In Android Studio, select a device from the device selector in the top-right corner.
+
+4. Install dependencies:
+flutter pub get
 
 4. Run the application:
-    ```bash
-    flutter run
+flutter run
+```
